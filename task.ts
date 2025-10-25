@@ -1,6 +1,6 @@
 import { Static, Type, TSchema } from '@sinclair/typebox';
 import { fetch } from '@tak-ps/etl';
-import ETL, { Event, SchemaType, handler as internal, local, InvocationType, DataFlowType, InputFeatureCollection } from '@tak-ps/etl';
+import ETL, { Event, SchemaType, handler as internal, local, InvocationType, DataFlowType } from '@tak-ps/etl';
 
 // AIS ship type to CoT type mapping
 const AIS_TYPE_TO_COT: Record<number, { type: string; icon?: string }> = {
@@ -451,7 +451,7 @@ export default class Task extends ETL {
             if (!body.VESSELS || !Array.isArray(body.VESSELS)) {
                 console.log('No vessels returned from AISHub API');
                 await this.submit({
-                    type: 'FeatureCollection',
+                    type: 'FeatureCollection' as const,
                     features: []
                 });
                 return;
@@ -459,7 +459,7 @@ export default class Task extends ETL {
 
             console.log(`Received ${body.VESSELS.length} vessels from AISHub API`);
 
-            const features: Static<typeof InputFeatureCollection>['features'] = [];
+            const features: any[] = [];
             
             for (const vessel of body.VESSELS) {
                 if (env.DEBUG && vessel.MMSI === 352001543) {
@@ -517,8 +517,8 @@ export default class Task extends ETL {
 
 
 
-            const fc: Static<typeof InputFeatureCollection> = {
-                type: 'FeatureCollection',
+            const fc = {
+                type: 'FeatureCollection' as const,
                 features
             };
 
@@ -537,7 +537,7 @@ export default class Task extends ETL {
                 console.error(`AISHub ETL error: ${sanitizedMessage}`);
             }
             await this.submit({
-                type: 'FeatureCollection',
+                type: 'FeatureCollection' as const,
                 features: []
             });
         }

@@ -5,7 +5,7 @@
 
 ## Data Source
 
-[AIShub.net](https://www.aishub.net/api)
+[aisstream.io](https://aisstream.io)
 
 ## Example Data
 

@@ -93,7 +93,7 @@ const Env = Type.Object({
     }),
     'VESSEL_OVERRIDES': Type.Array(Type.Object({
         MMSI: Type.Number({ description: 'MMSI number of the vessel' }),
-        type: Type.Optional(Type.String({ description: 'Custom CoT type (e.g. a-f-S-X-M)' })),
+        CoT: Type.Optional(Type.String({ description: 'Custom CoT type (e.g. a-f-S-X-M)' })),
         icon: Type.Optional(Type.String({ description: 'Custom icon path' })),
         comments: Type.Optional(Type.String({ description: 'Additional comments for vessel' }))
     }), {
@@ -120,6 +120,7 @@ const AISHubVessel = Type.Object({
     NAME: Type.Optional(Type.String()),
     CALLSIGN: Type.Optional(Type.String()),
     TYPE: Type.Optional(Type.Number()),
+    COT_TYPE: Type.Optional(Type.String()),
     A: Type.Optional(Type.Number()),
     B: Type.Optional(Type.Number()),
     C: Type.Optional(Type.Number()),
@@ -171,7 +172,7 @@ export default class Task extends ETL {
             );
             if (override) {
                 return {
-                    type: override.type || this.getDefaultCoTType(shipType, mmsi, homeFlag),
+                    type: override.CoT || this.getDefaultCoTType(shipType, mmsi, homeFlag).type,
                     icon: override.icon
                 };
             }
@@ -467,6 +468,9 @@ export default class Task extends ETL {
                 }
                 
                 const { type, icon } = this.getCoTTypeAndIcon(vessel.TYPE, vessel.MMSI, env.VESSEL_OVERRIDES, env.HOME_FLAG);
+                
+                // Store calculated CoT type in vessel object
+                vessel.COT_TYPE = type;
                 
                 // Check for custom comments from overrides
                 const override = env.VESSEL_OVERRIDES.find(o => o.MMSI === vessel.MMSI);

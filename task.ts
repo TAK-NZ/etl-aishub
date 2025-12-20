@@ -44,10 +44,10 @@ const AIS_TYPE_TO_COT: Record<number, { type: string; icon?: string }> = {
     
     // 60-69: Passenger
     60: { type: 'a-f-S-X-M-P' }, // Passenger
-    61: { type: 'a-f-S-X-M-H' }, // Passenger, Hazmat A
-    62: { type: 'a-f-S-X-M-H' }, // Passenger, Hazmat B
-    63: { type: 'a-f-S-X-M-H' }, // Passenger, Hazmat C
-    64: { type: 'a-f-S-X-M-H' }, // Passenger, Hazmat D
+    61: { type: 'a-f-S-X-M-P' }, // Passenger, Hazmat A
+    62: { type: 'a-f-S-X-M-P' }, // Passenger, Hazmat B
+    63: { type: 'a-f-S-X-M-P' }, // Passenger, Hazmat C
+    64: { type: 'a-f-S-X-M-P' }, // Passenger, Hazmat D
     69: { type: 'a-f-S-X-M-P' }, // Passenger, No additional info
     
     // 70-79: Cargo

@@ -23,12 +23,12 @@ const AIS_TYPE_TO_COT: Record<number, { type: string; icon?: string }> = {
     37: { type: 'a-f-S-X-R' }, // Pleasure Craft
     
     // 40-49: High speed craft (HSC)
-    40: { type: 'a-f-S-X-H' }, // High speed craft
-    41: { type: 'a-f-S-X-H' }, // HSC, Hazmat A
-    42: { type: 'a-f-S-X-H' }, // HSC, Hazmat B
-    43: { type: 'a-f-S-X-H' }, // HSC, Hazmat C
-    44: { type: 'a-f-S-X-H' }, // HSC, Hazmat D
-    49: { type: 'a-f-S-X-H' }, // HSC, No additional info
+    40: { type: 'a-f-S-X-M' }, // High speed craft
+    41: { type: 'a-f-S-X-M' }, // HSC, Hazmat A
+    42: { type: 'a-f-S-X-M' }, // HSC, Hazmat B
+    43: { type: 'a-f-S-X-M' }, // HSC, Hazmat C
+    44: { type: 'a-f-S-X-M' }, // HSC, Hazmat D
+    49: { type: 'a-f-S-X-M' }, // HSC, No additional info
     
     // 50-59: Special craft
     50: { type: 'a-f-S-X' }, // Pilot Vessel

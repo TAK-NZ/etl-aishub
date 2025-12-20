@@ -18,19 +18,16 @@ MMSI,CoT,Icon,Comments
 512009284,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,POLICE 2
 512009324,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,POLICE 3
 512005652,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,POLICE 8
-512008429,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,ARAIA
-512009046,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,HM8
-512000399,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,HARBOUR MASTER 01
-512009040,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,HM1
-512006312,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,AWANUI
-512213200,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,PUKAEA
-512210400,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,RANGER II
-512044005,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,CHINACOASTGUARD21543
-512009440,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,ORCA
-512003421,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,TE KAPA
-512002898,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,MATAARA II
-512009045,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,HM7
+512210400,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,RANGER II (Police)
+512009046,a-f-S-X-L,,HM8 (Harbor Master)
+512000399,a-f-S-X-L,,HARBOUR MASTER 01
+512009040,a-f-S-X-L,,HM1 (Harbor Master)
+512006312,a-f-S-X-L,,AWANUI (Harbor Master)
+512213200,a-f-S-X-L,,PUKAEA (Harbor Master)
+512009045,a-f-S-X-L,,HM7 (Harbor Master)
+512002898,a-f-S-X-L,,MATAARA II (DoC)
 512006653,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/CustomsVessel.png,HAWK V (Customes)
+512008429,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/CustomsVessel.png,ARAIA (Customs)
 512009753,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/CustomsVessel.png,RAPUA II (Customes)
 512008091,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,RESCUE ALPHA
 512002004,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,LPC RESCUE

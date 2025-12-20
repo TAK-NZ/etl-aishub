@@ -1,123 +1,123 @@
 MMSI,CoT,Icon,Comments
-512000600,a-f-S-C-F,,HMNZS Te Kaha (F77)
-512000700,a-f-S-C-F,,HMNZS Te Mana (F111)
-512155000,a-f-S-C-P,,HMNZS Otago (P148)
-512159000,a-f-S-C-P,,HMNZS Wellington (P55)
-512158000,a-f-S-C-P,,HMNZS Taupo (P3570)
-512156000,a-f-S-C-P,,HMNZS Hawea (P3571)
-512153000,a-f-S-C-A-L-S,,HMNZS Canterbury (L421)
-512450000,a-f-S-A-O,,HMNZS Aotearoa (A11)
-512215970,a-f-S-C-U,,Tahi - Uncrewed
-512215980,a-f-S-C-U,,Rua - Uncrewed
-512000004,a-f-S-C-A-L-C,,LMC 1
-512000115,a-f-S-C-A-L-C,,MATAWHA
-512000091,a-f-S-C-A-L-C,,LMC 2
-512000369,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,DEODAR 111
-512009210,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,HUKATAI (Police)
-512002883,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,LADY ELIZABETH IV (Police)
-512009284,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,POLICE 2
-512009324,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,POLICE 3
-512005652,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,POLICE 8
-512210400,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,RANGER II (Police)
+512000600,a-f-S-C-F,,HMNZS Te Kaha (F77) #NZDF
+512000700,a-f-S-C-F,,HMNZS Te Mana (F111) #NZDF
+512155000,a-f-S-C-P,,HMNZS Otago (P148) #NZDF
+512159000,a-f-S-C-P,,HMNZS Wellington (P55) #NZDF
+512158000,a-f-S-C-P,,HMNZS Taupo (P3570) #NZDF
+512156000,a-f-S-C-P,,HMNZS Hawea (P3571) #NZDF
+512153000,a-f-S-C-A-L-S,,HMNZS Canterbury (L421) #NZDF
+512450000,a-f-S-A-O,,HMNZS Aotearoa (A11) #NZDF
+512215970,a-f-S-C-U,,Tahi - Uncrewed #NZDF
+512215980,a-f-S-C-U,,Rua - Uncrewed #NZDF
+512000004,a-f-S-C-A-L-C,,LMC 1 #NZDF
+512000115,a-f-S-C-A-L-C,,MATAWHA #NZDF
+512000091,a-f-S-C-A-L-C,,LMC 2 #NZDF
+512000369,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,DEODAR 111 #NZ-Police
+512009210,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,HUKATAI (Police) #NZ-Police
+512002883,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,LADY ELIZABETH IV (Police) #NZ-Police
+512009284,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,POLICE 2 #NZ-Police
+512009324,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,POLICE 3 #NZ-Police
+512005652,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,POLICE 8 #NZ-Police
+512210400,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PoliceVessel.png,RANGER II (Police) #NZ-Police
 512009046,a-f-S-X-L,,HM8 (Harbor Master)
 512000399,a-f-S-X-L,,HARBOUR MASTER 01
 512009040,a-f-S-X-L,,HM1 (Harbor Master)
 512006312,a-f-S-X-L,,AWANUI (Harbor Master)
 512213200,a-f-S-X-L,,PUKAEA (Harbor Master)
 512009045,a-f-S-X-L,,HM7 (Harbor Master)
-512002898,a-f-S-X-L,,MATAARA II (DoC)
-512006653,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/CustomsVessel.png,HAWK V (Customes)
-512008429,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/CustomsVessel.png,ARAIA (Customs)
-512009753,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/CustomsVessel.png,RAPUA II (Customes)
-512008091,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,RESCUE ALPHA
-512002004,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,LPC RESCUE
-512005499,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,BAY RESCUE II
-512004731,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,LION RESCUE
-512009861,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TIES RESCUE
-512000450,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TECT RESCUE
-512205790,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TECT RESCUE
-512003446,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,CAPE RESCUE
-512000026,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MANA RESCUE 1
-512008823,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,FAST RESCUE BOAT
-512005096,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,BLUFF RESCUE
-512006508,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,KAWAU RESCUE
-512004419,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,CIRCA RESCUE
-512009350,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,LAKES RESCUE
-512009865,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,AVOCO RESCUE
-512008097,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MOANA RESCUE
-512011249,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,JANAS RESCUE BOAT
-512209360,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,CLYDE RESCUE II
-512008089,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TIMARU RESCUE
-512008088,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,KOKAKO RESCUE
-512008083,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,IHENGA RESCUE
-512001111,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HOWICK RESCUE 1
-512008085,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HUKATAI RESCUE
-512008247,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,KAIAPOI RESCUE
-512005198,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WAIHEKE RESCUE
-512217770,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,RUSSELL RESCUE
-512009859,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,PAUANUI RESCUE
-512007177,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,KOHINUI RESCUE
-512009299,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,SEALORD RESCUE
-512003143,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,PHOENIX RESCUE
-512009860,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,SEALEGS RESCUE
-512008098,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,OPOTIKI RESCUE II
-512008080,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TUTUKAKA RESCUE
-512010942,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,ATLANTIS RESCUE
-512009856,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,KAIKOURA RESCUE
-512009853,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HOKIANGA RESCUE
-512009864,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WINSTONE RESCUE
-512008076,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TIRIKAWA RESCUE
-512008090,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TAKARETO RESCUE
-512000637,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TRILLIAN RESCUE
-512008084,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WAIARIKI RESCUE
-512003416,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HIBISCUS RESCUE 1
-512004491,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HIBISCUS RESCUE 2
-512008011,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,PAPAKURA RESCUE 2
-512008180,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,PAPAKURA RESCUE ONE
-512003296,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WHAKATANE RESCUE
-512006451,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MAHUTONGA RESCUE
-512009850,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,CRV TAUPO RESCUE
-512008077,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,JOE HAWKE RESCUE
-512009857,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MAURI ORA RESCUE
-512003917,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,GALLAGHER RESCUE
-512009852,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,GALLAGHER RESCUE
-512005781,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WHANGAROA RESCUE
-512217010,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WHANGANUI RESCUE
-512008078,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WHANGARURU RESCUE
-512008087,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,QUEENSTOWN RESCUE
-512005452,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,BLUEBRIDGE RESCUE
-512009851,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,FREEMASONS RESCUE
-512006322,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,BLUE ARROW RESCUE
-512006847,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,GJ GARDNER RESCUE
-512000237,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,NORTH SHORE RESCUE
-512008082,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MARLBOROUGH RESCUE
-512009862,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TODD ENERGY RESCUE
-512007379,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,RICHARDSONS RESCUE
-512009855,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MILLS ALBERT RESCUE
-512001096,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,GISBORNE L F RESCUE
-512004533,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,AIRPORTMARINERESCUE
-512008075,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,LAKE BRUNNER RESCUE
-512005466,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,PUB CHARITY C RESCUE
-512008095,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WAITOABARRIER RESCUE
-512002235,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,LENSES ONLINE RESCUE
-512008086,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,REREMOANA
-512009858,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,ROTORUA II
-512002822,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,SPIRIT OF WELLINGTON
-512004786,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HOVERCRAFT 2
-512008081,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MACKENZIE LAKES RESC
-512004583,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HOVERCRAFT 1
-512003264,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,ACHIEVER
-512009849,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,CELIA KNOWLES
-512004648,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,AIRPORTMARINECONTROL
-512003945,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HM05
-512000144,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MARAETAI COASTGUARD
-512007175,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,OKUREI-EASTPACK RESC
-512007867,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,KIWA
-512008092,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,CGV 01 HOUHORA
-512003452,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT BOAT JACK GUY
-512000344,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT VESSEL AKARANA
-512005282,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT VESSEL AWAROA
-512006227,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT VESSEL KIWA
+512002898,a-f-S-X-L,,MATAARA II (DoC) #SAR
+512006653,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/CustomsVessel.png,HAWK V (Customes) #NZ-Customs #SAR
+512008429,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/CustomsVessel.png,ARAIA (Customs) #NZ-Customs #SAR
+512009753,a-f-S-X-L,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/CustomsVessel.png,RAPUA II (Customes) #NZ-Customs #SAR
+512008091,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,RESCUE ALPHA #SAR
+512002004,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,LPC RESCUE #SAR
+512005499,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,BAY RESCUE II #SAR
+512004731,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,LION RESCUE #SAR
+512009861,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TIES RESCUE #SAR
+512000450,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TECT RESCUE #SAR
+512205790,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TECT RESCUE #SAR
+512003446,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,CAPE RESCUE #SAR
+512000026,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MANA RESCUE 1 #SAR
+512008823,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,FAST RESCUE BOAT #SAR
+512005096,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,BLUFF RESCUE #SAR
+512006508,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,KAWAU RESCUE #SAR
+512004419,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,CIRCA RESCUE #SAR
+512009350,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,LAKES RESCUE #SAR
+512009865,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,AVOCO RESCUE #SAR
+512008097,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MOANA RESCUE #SAR
+512011249,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,JANAS RESCUE BOAT #SAR
+512209360,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,CLYDE RESCUE II #SAR
+512008089,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TIMARU RESCUE #SAR
+512008088,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,KOKAKO RESCUE #SAR
+512008083,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,IHENGA RESCUE #SAR
+512001111,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HOWICK RESCUE 1 #SAR
+512008085,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HUKATAI RESCUE #SAR
+512008247,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,KAIAPOI RESCUE #SAR
+512005198,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WAIHEKE RESCUE #SAR
+512217770,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,RUSSELL RESCUE #SAR
+512009859,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,PAUANUI RESCUE #SAR
+512007177,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,KOHINUI RESCUE #SAR
+512009299,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,SEALORD RESCUE #SAR
+512003143,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,PHOENIX RESCUE #SAR
+512009860,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,SEALEGS RESCUE #SAR
+512008098,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,OPOTIKI RESCUE II #SAR
+512008080,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TUTUKAKA RESCUE #SAR
+512010942,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,ATLANTIS RESCUE #SAR
+512009856,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,KAIKOURA RESCUE #SAR
+512009853,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HOKIANGA RESCUE #SAR
+512009864,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WINSTONE RESCUE #SAR
+512008076,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TIRIKAWA RESCUE #SAR
+512008090,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TAKARETO RESCUE #SAR
+512000637,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TRILLIAN RESCUE #SAR
+512008084,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WAIARIKI RESCUE #SAR
+512003416,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HIBISCUS RESCUE 1 #SAR
+512004491,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HIBISCUS RESCUE 2 #SAR
+512008011,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,PAPAKURA RESCUE 2 #SAR
+512008180,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,PAPAKURA RESCUE ONE #SAR
+512003296,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WHAKATANE RESCUE #SAR
+512006451,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MAHUTONGA RESCUE #SAR
+512009850,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,CRV TAUPO RESCUE #SAR
+512008077,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,JOE HAWKE RESCUE #SAR
+512009857,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MAURI ORA RESCUE #SAR
+512003917,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,GALLAGHER RESCUE #SAR
+512009852,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,GALLAGHER RESCUE #SAR
+512005781,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WHANGAROA RESCUE #SAR
+512217010,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WHANGANUI RESCUE #SAR
+512008078,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WHANGARURU RESCUE #SAR
+512008087,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,QUEENSTOWN RESCUE #SAR
+512005452,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,BLUEBRIDGE RESCUE #SAR
+512009851,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,FREEMASONS RESCUE #SAR
+512006322,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,BLUE ARROW RESCUE #SAR
+512006847,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,GJ GARDNER RESCUE #SAR
+512000237,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,NORTH SHORE RESCUE #SAR
+512008082,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MARLBOROUGH RESCUE #SAR
+512009862,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,TODD ENERGY RESCUE #SAR
+512007379,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,RICHARDSONS RESCUE #SAR
+512009855,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MILLS ALBERT RESCUE #SAR
+512001096,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,GISBORNE L F RESCUE #SAR
+512004533,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,AIRPORTMARINERESCUE #SAR
+512008075,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,LAKE BRUNNER RESCUE #SAR
+512005466,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,PUB CHARITY C RESCUE #SAR
+512008095,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,WAITOABARRIER RESCUE #SAR
+512002235,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,LENSES ONLINE RESCUE #SAR
+512008086,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,REREMOANA #SAR
+512009858,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,ROTORUA II #SAR
+512002822,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,SPIRIT OF WELLINGTON #SAR
+512004786,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HOVERCRAFT 2 #SAR
+512008081,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MACKENZIE LAKES RESC #SAR
+512004583,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HOVERCRAFT 1 #SAR
+512003264,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,ACHIEVER #SAR
+512009849,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,CELIA KNOWLES #SAR
+512004648,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,AIRPORTMARINECONTROL #SAR
+512003945,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,HM05 #SAR
+512000144,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,MARAETAI COASTGUARD #SAR
+512007175,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,OKUREI-EASTPACK RESC #SAR
+512007867,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,KIWA #SAR
+512008092,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,CGV 01 HOUHORA #SAR
+512003452,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT BOAT JACK GUY #SAR
+512000344,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT VESSEL AKARANA #SAR
+512005282,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT VESSEL AWAROA #SAR
+512006227,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.p #SARng,PILOT VESSEL KIWA
 512212520,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT VESSEL MANUKA
 512004996,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOTVESSEL WAKATERE
 512006292,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,WLG PILOT TE HAA

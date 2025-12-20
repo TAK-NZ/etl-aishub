@@ -17,10 +17,10 @@ const AIS_TYPE_TO_COT: Record<number, { type: string; icon?: string }> = {
     31: { type: 'a-f-S-X-M-T-O' }, // Towing
     32: { type: 'a-f-S-X-M-T-O' }, // Towing (large)
     33: { type: 'a-f-S-X-F-D-R' }, // Dredging/underwater ops
-    34: { type: 'a-f-U-N-D' }, // Diving ops
-    35: { type: 'a-f-S' }, // Military ops
-    36: { type: 'a-n-S-X-R' }, // Sailing
-    37: { type: 'a-n-S-X-R' }, // Pleasure Craft
+    34: { type: 'a-f-S-X-M' }, // Diving ops
+    35: { type: 'a-f-S-C' }, // Military ops
+    36: { type: 'a-f-S-X-R' }, // Sailing
+    37: { type: 'a-f-S-X-R' }, // Pleasure Craft
     
     // 40-49: High speed craft (HSC)
     40: { type: 'a-f-S-X-H' }, // High speed craft
@@ -31,8 +31,8 @@ const AIS_TYPE_TO_COT: Record<number, { type: string; icon?: string }> = {
     49: { type: 'a-f-S-X-H' }, // HSC, No additional info
     
     // 50-59: Special craft
-    50: { type: 'a-f-S-N-S' }, // Pilot Vessel
-    51: { type: 'a-f-S-N-N-R' }, // Search and Rescue vessel
+    50: { type: 'a-f-S-X' }, // Pilot Vessel
+    51: { type: 'a-f-S-X' }, // Search and Rescue vessel
     52: { type: 'a-f-S-X-M-T-U' }, // Tug
     53: { type: 'a-f-S-X' }, // Port Tender
     54: { type: 'a-f-S-X' }, // Anti-pollution equipment
@@ -44,26 +44,26 @@ const AIS_TYPE_TO_COT: Record<number, { type: string; icon?: string }> = {
     
     // 60-69: Passenger
     60: { type: 'a-f-S-X-M-P' }, // Passenger
-    61: { type: 'a-f-S-X-M-P' }, // Passenger, Hazmat A
-    62: { type: 'a-f-S-X-M-P' }, // Passenger, Hazmat B
-    63: { type: 'a-f-S-X-M-P' }, // Passenger, Hazmat C
-    64: { type: 'a-f-S-X-M-P' }, // Passenger, Hazmat D
+    61: { type: 'a-f-S-X-M-H' }, // Passenger, Hazmat A
+    62: { type: 'a-f-S-X-M-H' }, // Passenger, Hazmat B
+    63: { type: 'a-f-S-X-M-H' }, // Passenger, Hazmat C
+    64: { type: 'a-f-S-X-M-H' }, // Passenger, Hazmat D
     69: { type: 'a-f-S-X-M-P' }, // Passenger, No additional info
     
     // 70-79: Cargo
     70: { type: 'a-f-S-X-M-C' }, // Cargo
-    71: { type: 'a-f-S-X-M-C' }, // Cargo, Hazmat A
-    72: { type: 'a-f-S-X-M-C' }, // Cargo, Hazmat B
-    73: { type: 'a-f-S-X-M-C' }, // Cargo, Hazmat C
-    74: { type: 'a-f-S-X-M-C' }, // Cargo, Hazmat D
+    71: { type: 'a-f-S-X-M-H' }, // Cargo, Hazmat A
+    72: { type: 'a-f-S-X-M-H' }, // Cargo, Hazmat B
+    73: { type: 'a-f-S-X-M-H' }, // Cargo, Hazmat C
+    74: { type: 'a-f-S-X-M-H' }, // Cargo, Hazmat D
     79: { type: 'a-f-S-X-M-C' }, // Cargo, No additional info
     
     // 80-89: Tanker
     80: { type: 'a-f-S-X-M-O' }, // Tanker
-    81: { type: 'a-f-S-X-M-O' }, // Tanker, Hazmat A
-    82: { type: 'a-f-S-X-M-O' }, // Tanker, Hazmat B
-    83: { type: 'a-f-S-X-M-O' }, // Tanker, Hazmat C
-    84: { type: 'a-f-S-X-M-O' }, // Tanker, Hazmat D
+    81: { type: 'a-f-S-X-M-H' }, // Tanker, Hazmat A
+    82: { type: 'a-f-S-X-M-H' }, // Tanker, Hazmat B
+    83: { type: 'a-f-S-X-M-H' }, // Tanker, Hazmat C
+    84: { type: 'a-f-S-X-M-H' }, // Tanker, Hazmat D
     89: { type: 'a-f-S-X-M-O' }, // Tanker, No additional info
     
     // 90-99: Other
@@ -141,6 +141,16 @@ export default class Task extends ETL {
         LAW_ENFORCEMENT: 55,
         MEDICAL_TRANSPORT: 58
     } as const;
+
+    // Invalid/dummy MMSI numbers to filter out
+    private static readonly INVALID_MMSI = new Set([
+        0,          // Invalid
+        111111111,  // Test MMSI
+        123456789,  // Common test/placeholder
+        200000000,  // Invalid placeholder
+        999999999,  // Test MMSI
+        1193046     // SAR aircraft transponder (not a vessel)
+    ]);
 
     async schema(
         type: SchemaType = SchemaType.Input,
@@ -461,8 +471,17 @@ export default class Task extends ETL {
             console.log(`Received ${body.VESSELS.length} vessels from AISHub API`);
 
             const features: any[] = [];
+            let filteredCount = 0;
             
             for (const vessel of body.VESSELS) {
+                // Filter out invalid/dummy MMSI numbers
+                if (Task.INVALID_MMSI.has(vessel.MMSI)) {
+                    filteredCount++;
+                    if (env.DEBUG) {
+                        console.log(`Filtered out invalid MMSI: ${vessel.MMSI}`);
+                    }
+                    continue;
+                }
                 if (env.DEBUG && vessel.MMSI === 352001543) {
                     console.log(`Debug vessel 352001543:`, JSON.stringify(vessel, null, 2));
                 }
@@ -526,7 +545,7 @@ export default class Task extends ETL {
                 features
             };
 
-            console.log(`Submitting ${features.length} vessels to TAK`);
+            console.log(`Submitting ${features.length} vessels to TAK${filteredCount > 0 ? ` (filtered ${filteredCount} invalid MMSIs)` : ''}`);
             await this.submit(fc);
             
         } catch (error) {

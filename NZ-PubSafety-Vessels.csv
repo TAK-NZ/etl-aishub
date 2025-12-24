@@ -114,9 +114,11 @@ MMSI,CoT,Icon,Comments
 512007175,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,OKUREI-EASTPACK RESC #SAR
 512007867,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,KIWA #SAR
 512008092,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,CGV 01 HOUHORA #SAR
-512003452,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT BOAT JACK GUY #SAR
-512000344,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT VESSEL AKARANA #SAR
-512005282,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT VESSEL AWAROA #SAR
+512000046,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,AIRPORT MARINE ONE #SAR
+512000051,a-f-S-N-N-R,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/SARVessel.png,AIRPORT MARINE TWO #SAR
+512003452,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT BOAT JACK GUY
+512000344,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT VESSEL AKARANA
+512005282,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT VESSEL AWAROA
 512006227,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.p #SARng,PILOT VESSEL KIWA
 512212520,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOT VESSEL MANUKA
 512004996,a-f-S-N-S,f8c9d2a1-4b5e-4c7f-9a8b-1d2e3f4g5h6i:Vessels/PilotVessel.png,PILOTVESSEL WAKATERE

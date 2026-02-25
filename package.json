@@ -2,7 +2,7 @@
     "name": "etl-aishub",
     "type": "module",
     "private": true,
-    "version": "1.0.0",
+    "version": "1.0.3",
     "description": "ETL for AIS data from aishub.net API",
     "main": "index.js",
     "scripts": {
@@ -13,14 +13,14 @@
     "author": "Christian Elsen <chris@elsen.nz>",
     "license": "AGPL-3.0-only",
     "devDependencies": {
-        "@types/geojson": "^7946.0.10",
-        "eslint": "^9.0.0",
-        "ts-node": "^10.9.1",
-        "typescript": "^5.0.4",
-        "typescript-eslint": "^8.0.0"
+        "@types/geojson": "^7946.0.16",
+        "eslint": "^9.39.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.56.1"
     },
     "dependencies": {
-        "@sinclair/typebox": "^0.34.0",
-        "@tak-ps/etl": "^9.22.0"
+        "@sinclair/typebox": "^0.34.48",
+        "@tak-ps/etl": "^10.0.3"
     }
 }

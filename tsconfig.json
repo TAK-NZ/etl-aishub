@@ -7,16 +7,10 @@
         "esModuleInterop": true,
         "target": "es2022",
         "noImplicitAny": true,
-        "moduleResolution": "node",
+        "moduleResolution": "bundler",
         "sourceMap": true,
         "outDir": "dist",
-        "declaration": true,
-        "baseUrl": ".",
-        "paths": {
-            "*": [
-                "node_modules/*"
-            ]
-        }
+        "declaration": true
     },
     "include": [
         "task.ts"

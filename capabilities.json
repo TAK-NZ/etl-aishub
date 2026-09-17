@@ -1,0 +1,27 @@
+{
+    "version": "1.0",
+    "name": "AISHub Vessel Tracking",
+    "description": "Ingests live AIS vessel position reports from the AISHub API for a configured bounding box and submits them to CloudTAK as CoT features.",
+    "compute": {
+        "memory": 1024,
+        "timeout": 120
+    },
+    "permissions": [
+        {
+            "resource": "feature:*",
+            "required": true,
+            "description": "Submits vessel position features derived from AISHub AIS data"
+        }
+    ],
+    "invocations": {
+        "incoming": {
+            "schedule": {
+                "description": "Polls the AISHub API for vessel positions within the configured bounding box and submits them as CoT features",
+                "default": {
+                    "enabled": true,
+                    "schedule": "rate(1 minute)"
+                }
+            }
+        }
+    }
+}

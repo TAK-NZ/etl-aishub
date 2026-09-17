@@ -2,6 +2,11 @@ import { Static, Type, TSchema } from '@sinclair/typebox';
 import { fetch } from '@tak-ps/etl';
 import ETL, { Event, SchemaType, handler as internal, local, InvocationType, DataFlowType } from '@tak-ps/etl';
 
+// Default CoT stale/timeout offset in milliseconds. Without this, @tak-ps/node-cot
+// defaults to just 20 seconds, which is too aggressive for a polling-based ETL
+// and can cause vessels to flicker stale between updates.
+const DEFAULT_COT_STALE_MS = 60 * 1000;
+
 // AIS ship type to CoT type mapping
 const AIS_TYPE_TO_COT: Record<number, { type: string; icon?: string }> = {
     // 20-29: Wing in ground (WIG)
@@ -520,6 +525,7 @@ export default class Task extends ETL {
                         callsign: (vessel.NAME && vessel.NAME.trim()) || `MMSI-${vessel.MMSI}`,
                         time: new Date(vessel.TIME).toISOString(),
                         start: new Date(vessel.TIME).toISOString(),
+                        stale: DEFAULT_COT_STALE_MS,
                         course: vessel.COG || 0,
                         speed: vessel.SOG ? vessel.SOG * 0.514444 : 0,
                         remarks,

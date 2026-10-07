@@ -21,10 +21,12 @@
 - Switched to `Task.init()` in the local-dev and Lambda handler entry points
 - Bumped Node.js to 24 in CI (`lint.yml`, `etl-deploy.yml`) and added `engines.node >= 24` to `package.json`, matching the Dockerfile's `nodejs:24` base image
 - CoT features now set an explicit 60 second `stale` timeout instead of relying on `@tak-ps/node-cot`'s 20 second default, so vessels don't flicker stale between polls
+- Pin the workflow runners to `ubuntu-24.04` instead of `ubuntu-latest`, so the `ubuntu-latest` migration to Ubuntu 26 (starting October 19, 2026) does not change the build environment unannounced
 - Add a .dockerignore so .git, .github, node_modules, dist, test, docs, .agents, .env*, and markdown files are kept out of the image build context
 
 :arrow_up: **Dependencies**
 - Updated dependencies via `npm update`, resolving all `npm audit` findings (8 vulnerabilities to 0)
+- Update GitHub Actions to releases that run on Node.js 24, clearing the Node.js 20 deprecation warnings: `actions/checkout` v7, `actions/setup-node` v7, `aws-actions/configure-aws-credentials` v6 and `docker/setup-buildx-action` v4. `aws-actions/amazon-ecr-login` v2 already runs on Node.js 24. Not yet run in CI on these versions
 
 ### v1.0.0
 

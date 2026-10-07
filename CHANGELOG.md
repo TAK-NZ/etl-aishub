@@ -22,6 +22,7 @@
 - Bumped Node.js to 24 in CI (`lint.yml`, `etl-deploy.yml`) and added `engines.node >= 24` to `package.json`, matching the Dockerfile's `nodejs:24` base image
 - CoT features now set an explicit 60 second `stale` timeout instead of relying on `@tak-ps/node-cot`'s 20 second default, so vessels don't flicker stale between polls
 - Pin the workflow runners to `ubuntu-24.04` instead of `ubuntu-latest`, so the `ubuntu-latest` migration to Ubuntu 26 (starting October 19, 2026) does not change the build environment unannounced
+- Add a .dockerignore so .git, .github, node_modules, dist, test, docs, .agents, .env*, and markdown files are kept out of the image build context
 
 :arrow_up: **Dependencies**
 - Updated dependencies via `npm update`, resolving all `npm audit` findings (8 vulnerabilities to 0)
